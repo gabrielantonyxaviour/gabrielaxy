@@ -16,7 +16,7 @@ export const essays: Essay[] = [
 
 i built cosmiclan around this thesis. eight autonomous agents, each with a distinct voice, skillset, and operational mandate. they don't just generate content — they run pipelines, close deals, manage social accounts, and ship code.
 
-the misconception is that ai replaces labor. what it actually replaces is coordination cost. a single operator with 50 specialized agents can out-ship a 20-person startup because there is no slack, no standups, no misalignment. just intent → execution → feedback loop.
+the misconception is that ai replaces labor. what it actually replaces is coordination cost. a single operator with 50 specialized agents can outship a 20-person startup because there is no slack, no standups, no misalignment. just intent → execution → feedback loop.
 
 i run my entire brand, product pipeline, and outreach through this system. not because it's futuristic. because it's faster.
 
@@ -54,7 +54,7 @@ not because i'm an exhibitionist. because building in public is the most effecti
 
 when you post your metrics, your failures, your pivots — two things happen. one: you can't hide. the social contract forces you to ship. two: people trust you before you ask for anything.
 
-i posted day-by-day updates when i burned $500 on ads that didn't convert. zero shame. just numbers, screenshots, and what i learned. that thread got more consulting leads than any polished case study i could have commissioned.
+i posted day-by-day updates when i burned through $500 on ads that didn't convert. zero shame. just numbers, screenshots, and what i learned. that thread got more consulting leads than any polished case study i could have commissioned.
 
 the formula is simple: shipped artifact + honest commentary = trust at scale.
 
@@ -69,7 +69,7 @@ build in public or die in private.`,
     date: "2026-06-02",
     content: `i registered larinova.com before i wrote a single line of code.
 
-most builders do the opposite. they build the mvp, then scramble for a name, then find the domain is taken, then settle for a .co or append "app" to their brand.
+most builders do the opposite. they build the mvp, then scramble for a name, then find the domain is taken, then settle for a .co or append "app" to their brand name.
 
 i start with the identity.
 
@@ -128,7 +128,7 @@ export const notesToSelf = [
   "work with people. never alongside them.",
   "get fit. look sexy. dress well.",
   "turn your phone off. the world can wait.",
-  "never compromise for people who can't reason.",
+  "never compromise with people who can't reason.",
   "make your loved ones happy. that's the only debt that matters.",
   "embarrassment is a construct built by people beneath you.",
   "make people's lives better. that's the point.",
