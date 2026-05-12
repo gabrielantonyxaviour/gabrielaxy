@@ -11,30 +11,30 @@ export interface ProjectCategory {
 
 export const projectCategories: ProjectCategory[] = [
   {
-    category: "Brand",
+    category: "brand",
     items: [
       {
-        name: "Cosmiclan",
+        name: "cosmiclan",
         url: "https://cosmiclan.com",
         description: "high agency. raw throughput.",
       },
     ],
   },
   {
-    category: "Startup",
+    category: "startup",
     items: [
       {
-        name: "Larinova",
+        name: "larinova",
         url: "https://larinova.com",
         description: "making doctors life easier",
       },
     ],
   },
   {
-    category: "Growth",
+    category: "growth",
     items: [
       {
-        name: "Rax Tech",
+        name: "rax tech",
         url: "https://rax-tech.com",
         description: "iot, hse, e-surv, software, marine",
       },

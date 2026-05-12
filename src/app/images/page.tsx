@@ -6,8 +6,8 @@ export default function ImagesPage() {
   return (
     <main className="min-h-screen pb-24">
       <div className="max-w-xl mx-auto px-6 pt-12">
-        <h1 className="text-4xl font-bold tracking-tight mb-2">Images</h1>
-        <p className="text-gray-500 mb-8">A picture speaks a thousand words</p>
+        <h1 className="text-4xl font-bold tracking-tight mb-2">images</h1>
+        <p className="text-gray-500 mb-8">a picture speaks a thousand words</p>
 
         <div className="grid grid-cols-2 gap-4">
           {photos.map((photo) => (

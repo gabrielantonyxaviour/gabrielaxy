@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Gabriel Antony Xaviour",
-  description: "Founder · Multi agent orchestrator · Web3 developer",
+  title: "gabriel antony xaviour",
+  description: "founder · multi agent orchestrator · web3 developer",
 };
 
 export default function RootLayout({

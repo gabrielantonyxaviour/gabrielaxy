@@ -11,7 +11,6 @@ export default function CopyEmail({ email }: { email: string }) {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch {
-      // Fallback
       const textarea = document.createElement("textarea");
       textarea.value = email;
       textarea.style.position = "fixed";
@@ -30,7 +29,7 @@ export default function CopyEmail({ email }: { email: string }) {
       onClick={handleCopy}
       className="ml-2 text-xs border border-gray-200 px-2 py-1 rounded hover:bg-gray-50 transition-colors text-gray-600"
     >
-      {copied ? "Copied" : "Copy Email"}
+      {copied ? "copied" : "copy email"}
     </button>
   );
 }

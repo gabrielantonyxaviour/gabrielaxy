@@ -14,10 +14,10 @@ export default function AboutPage() {
     <main className="min-h-screen pb-24">
       <div className="max-w-xl mx-auto px-6 pt-12">
         <h1 className="text-4xl font-bold tracking-tight mb-2">
-          Gabriel Antony Xaviour
+          gabriel antony xaviour
         </h1>
         <p className="text-gray-500 mb-6">
-          Founder · Multi agent orchestrator · Web3 developer
+          22 · founder · multi agent orchestrator · web3 developer
         </p>
 
         <div className="flex flex-wrap gap-4 text-sm">
@@ -36,17 +36,17 @@ export default function AboutPage() {
 
         <div className="mt-8 space-y-4 text-gray-700 leading-relaxed">
           <p>
-            Running a one-man company powered by 8 autonomous agents. I move
+            running a one-man company powered by 8 autonomous agents. i move
             fast and let the work speak.
           </p>
           <p>
-            I aspire to become the most perfect human specimen in every realm
-            of human endeavor. I love art, AI, and self-expression in ways
-            humanity hasn't imagined yet. I'm going to run a $1B company with me
-            and my agents and prove everyone who says "you need a team" wrong.
+            i aspire to become the most perfect human specimen in every realm
+            of human endeavor. i love art, ai, and self-expression in ways
+            humanity hasn&apos;t imagined yet. i&apos;m going to run a $1b company with me
+            and my agents and prove everyone who says &quot;you need a team&quot; wrong.
           </p>
           <p>
-            If you have something worth building, reach out.
+            if you have something worth building, reach out.
           </p>
         </div>
 
@@ -61,7 +61,7 @@ export default function AboutPage() {
         </div>
 
         <section className="mt-12">
-          <h2 className="text-lg font-semibold mb-6">Currently</h2>
+          <h2 className="text-lg font-semibold mb-6">currently</h2>
 
           {projectCategories.map((cat) => (
             <div key={cat.category} className="mb-8">

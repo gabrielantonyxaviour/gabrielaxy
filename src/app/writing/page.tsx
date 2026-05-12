@@ -8,17 +8,17 @@ export default function WritingPage() {
   return (
     <main className="min-h-screen pb-24">
       <div className="max-w-xl mx-auto px-6 pt-12">
-        <h1 className="text-4xl font-bold tracking-tight mb-2">Writing</h1>
+        <h1 className="text-4xl font-bold tracking-tight mb-2">writing</h1>
         <p className="text-gray-500 mb-8">principles, guardrails, reflections</p>
 
         <Link
           href="/writing/notes-to-self"
           className="inline-block underline underline-offset-2 text-black hover:text-gray-600 transition-colors mb-10"
         >
-          Notes to Self
+          notes to self
         </Link>
 
-        <h2 className="text-lg font-semibold mb-4">Thoughts</h2>
+        <h2 className="text-lg font-semibold mb-4">thoughts</h2>
         <div className="divide-y divide-gray-100">
           {essays.map((essay) => (
             <Link

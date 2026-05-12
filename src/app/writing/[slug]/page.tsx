@@ -19,7 +19,7 @@ export async function generateMetadata({
   const essay = getEssayBySlug(slug);
   if (!essay) return {};
   return {
-    title: `${essay.title} — Gabriel Antony Xaviour`,
+    title: `${essay.title} — gabriel antony xaviour`,
     description: essay.subtitle,
   };
 }
@@ -36,7 +36,6 @@ export default async function EssayPage({
     notFound();
   }
 
-  // Hide essays scheduled for future dates
   const todayStr = new Date().toLocaleDateString("en-CA");
   if (essay.date > todayStr) {
     notFound();
@@ -61,7 +60,7 @@ export default async function EssayPage({
           href="/writing"
           className="inline-block mt-10 underline underline-offset-2 text-black hover:text-gray-600 transition-colors"
         >
-          ← Back to Writing
+          ← back to writing
         </Link>
       </div>
       <BottomNav />
