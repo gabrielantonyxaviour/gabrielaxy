@@ -40,13 +40,13 @@ export default function AboutPage() {
             fast and let the work speak.
           </p>
           <p>
-            i aspire to become the most perfect human specimen in every realm
+            i aspire to become the perfect human in every realm
             of human endeavor. i love art, ai, and self-expression in ways
             humanity hasn&apos;t imagined yet. i&apos;m going to run a $1b company with just
             me and my agents and prove everyone who says &quot;you need a team&quot; wrong.
           </p>
           <p>
-            if you have something worth building, reach out.
+            if you have something interesting, reach out.
           </p>
         </div>
 
