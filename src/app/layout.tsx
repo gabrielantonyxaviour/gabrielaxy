@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "gabriel antony xaviour",
-  description: "founder · multi agent orchestrator · web3 developer",
+  description: "founder · multi agent orchestrator · web3/ai developer",
 };
 
 export default function RootLayout({

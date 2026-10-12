@@ -17,7 +17,7 @@ export default function AboutPage() {
           gabriel antony xaviour
         </h1>
         <p className="text-gray-500 mb-6">
-          22 · founder · multi agent orchestrator · web3 developer
+          23 · founder · multi agent orchestrator · web3/ai developer
         </p>
 
         <div className="flex flex-wrap gap-4 text-sm">
@@ -52,12 +52,12 @@ export default function AboutPage() {
 
         <div className="mt-6 flex items-center">
           <a
-            href="mailto:gabrielantony56@gmail.com"
+            href="mailto:gabriel@larinova.com"
             className="underline underline-offset-2 text-black"
           >
-            gabrielantony56@gmail.com
+            gabriel@larinova.com
           </a>
-          <CopyEmail email="gabrielantony56@gmail.com" />
+          <CopyEmail email="gabriel@larinova.com" />
         </div>
 
         <section className="mt-12">

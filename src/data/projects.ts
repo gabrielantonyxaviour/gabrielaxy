@@ -21,12 +21,12 @@ export const projectCategories: ProjectCategory[] = [
     ],
   },
   {
-    category: "startup",
+    category: "entity",
     items: [
       {
         name: "larinova",
         url: "https://larinova.com",
-        description: "making doctors life easier",
+        description: "the everything company",
       },
     ],
   },

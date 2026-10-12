@@ -1,3 +1,6 @@
+import { essaysAugToOct } from "./essays-aug-to-oct";
+import { essaysJunToAug } from "./essays-jun-to-aug";
+
 export interface Essay {
   slug: string;
   title: string;
@@ -108,6 +111,8 @@ the $500 wasn't wasted. it was tuition. now i run ads with a 4.2x roas using the
 
 show your failures with numbers attached. it builds more trust than your wins ever will.`,
   },
+  ...essaysJunToAug,
+  ...essaysAugToOct,
 ];
 
 export function getEssayBySlug(slug: string): Essay | undefined {
@@ -120,7 +125,6 @@ export function getVisibleEssays(): Essay[] {
 }
 
 export const notesToSelf = [
-  "fuck opinions of stupid people.",
   "stick to your habits. zero compromises.",
   "sleep is non-negotiable.",
   "pour every dollar into the craft. borrow if you have to.",
