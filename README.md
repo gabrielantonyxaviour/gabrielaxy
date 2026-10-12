@@ -1,6 +1,6 @@
 # Gabrielaxy
 
-Gabriel's personal portfolio. This is a Next.js static site; `npm run build` exports it to `out/` for Cloudflare Pages.
+Gabriel's personal portfolio, built with Next.js and deployed to Vercel.
 
 The local repository lives at `/Users/gabrielantonyxaviour/Documents/gabriel-personal-portfolio`. The GitHub repository is [gabrielantonyxaviour/gabrielaxy](https://github.com/gabrielantonyxaviour/gabrielaxy).
 
@@ -15,26 +15,21 @@ npm run dev
 
 The development server runs at [http://localhost:3002](http://localhost:3002). Before publishing, run `npm run lint` and `npm run build`.
 
-## Cloudflare Pages
+## Production: Vercel
 
-The deployment target is the existing Cloudflare Pages project `gabrielaxy`, with `main` as the production branch. GitHub Actions validates pushes to `main` by installing locked dependencies, linting, and building the static export. It does not publish the site or need Cloudflare credentials.
+The existing project is `gabrielaxy` in the `rax-tech` team (project ID `prj_ToWQGIN2Nv80Xjgt4OyTuO3YjRTg`). Publish the latest committed `main` with the Vercel CLI. Git deployments are permitted by `vercel.json`, but automatic deployment is unavailable until the Vercel account has access to connect the GitHub repository. GitHub Actions validates the static export on pushes to `main`.
 
-For a production direct upload, authenticate Wrangler locally for the Cloudflare account containing `gabrielaxy`, then run from this checkout:
+The public site is [www.gabrielaxy.com](https://www.gabrielaxy.com), with [gabrielaxy.vercel.app](https://gabrielaxy.vercel.app) as a Vercel address. The apex domain redirects to `www`.
+
+For a manual production deployment, link this checkout to the existing project and use its explicit team ID:
 
 ```bash
-npm ci
-npm run lint
-npm run deploy:cloudflare
+vercel link --project gabrielaxy --scope team_CKaFp2ehg9rFUbO3GunR3Cb2 --yes
+vercel --prod --scope team_CKaFp2ehg9rFUbO3GunR3Cb2 --yes
 ```
 
-`deploy:cloudflare` builds the static export and uploads `out/` with the locally pinned Wrangler version. The command publishes to Pages, so run it only when a production upload is intended. `vercel.json` disables Vercel Git deployments; the existing Vercel site remains available during the domain cutover.
+## Cloudflare backup
 
-## Domain cutover status — 12 October 2026
+The static export (`out/`) can also be uploaded to the existing Cloudflare Pages project `gabrielaxy` with `npm run deploy:cloudflare`, after authenticating Wrangler to its owning account. Its separate address is [gabrielaxy.pages.dev](https://gabrielaxy.pages.dev).
 
-Both `gabrielaxy.com` and `www.gabrielaxy.com` are attached to Pages. Their records in the pending Cloudflare zone point to `gabrielaxy.pages.dev`. The existing DMARC and other non-website records are preserved. The site is static and has no application database or runtime secrets to migrate.
-
-The latest export is deployed at [gabrielaxy.pages.dev](https://gabrielaxy.pages.dev). All 29 public HTML pages were checked against the local export, and unknown routes return HTTP 404. The homepage was visually checked at mobile, tablet, and desktop widths.
-
-The public domain still uses GoDaddy nameservers and serves Vercel. The available GoDaddy account no longer lists this domain registration; current registrar control is unconfirmed and must be recovered before the cutover. Its assigned Cloudflare nameservers are `jimmy.ns.cloudflare.com` and `rosalie.ns.cloudflare.com`. After changing the registrar nameservers, verify that the zone and both Pages custom domains are active, HTTPS works, and all public routes serve the current export.
-
-The domain registration remains at GoDaddy. Moving registration to Cloudflare Registrar is a separate transfer and has not been started. Keep the Vercel fallback until the public domain is verified on Cloudflare.
+The Cloudflare domain migration was shelved on 12 October 2026 because access to the current domain registration is unconfirmed. The public domain continues to use its existing DNS and Vercel deployment. The prepared Cloudflare zone and custom domains remain pending; do not change nameservers as part of routine website updates.
