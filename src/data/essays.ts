@@ -29,22 +29,22 @@ pick up the tools. start small. one agent, one workflow. scale from there.`,
   },
   {
     slug: "rax-legacy",
-    title: "my dad built rax tech for 25 years",
+    title: "bringing rax tech's operational experience into software",
     subtitle: "here's what i'm building on top",
     date: "2026-05-19",
-    content: `my dad built rax tech for 25 years. brick by brick, client by client, in the unsexy world of engineering project management.
+    content: `rax tech has built 25 years of experience in engineering project management. brick by brick, client by client, through the work of delivering complex projects.
 
-i grew up watching him negotiate contracts, manage distributed teams across the gulf and india, and deliver infrastructure projects that most people will never notice but everyone depends on.
+that work involves negotiating contracts, managing distributed teams across the gulf and india, and delivering infrastructure projects that most people will never notice but everyone depends on.
 
 now i'm building on top of that legacy.
 
-rax tech isn't just a family business anymore. it's becoming a platform — ai-enhanced project management for distributed engineering teams. the same operational dna that handled $xm in projects, now augmented with agent workflows, automated reporting, and predictive risk analysis.
+rax tech is becoming a platform — ai-enhanced project management for distributed engineering teams. its operational experience is now being augmented with agent workflows, automated reporting, and predictive risk analysis.
 
-the lesson i learned from him: trust is built through delivery, not decks. every slide in a pitch deck is a promise. every shipped feature is proof.
+the lesson from that work: trust is built through delivery, not decks. every slide in a pitch deck is a promise. every shipped feature is proof.
 
 i'm taking 25 years of operational trust and translating it into software. same standards. same grit. just faster execution.
 
-this one is for him.`,
+the goal is to carry that experience forward.`,
   },
   {
     slug: "building-in-public",
